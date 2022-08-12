@@ -1,3 +1,5 @@
+package com.anuj;
+
 public class DynamicStack {
 
     int capacity = 2;
@@ -23,7 +25,7 @@ public class DynamicStack {
     public int pop() {
         int data = 0;
         if (isEmpty()) {
-            System.out.println("Can't pop, Stack is empty.");
+            System.out.println("Can't pop, com.anuj.Stack is empty.");
         } else {
             top--;
             data = stack[top];
@@ -71,7 +73,7 @@ public class DynamicStack {
 class DynamicStackRunner {
     public static void main(String[] args) {
         DynamicStack dynamicStack = new DynamicStack();
-        System.out.println(dynamicStack.isEmpty() == true ? "Stack is empty." : "Stack is not empty.");
+        System.out.println(dynamicStack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
         dynamicStack.pop();
         dynamicStack.push(10);
         dynamicStack.push(9);
@@ -80,14 +82,14 @@ class DynamicStackRunner {
         dynamicStack.push(6);
         dynamicStack.push(5);
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println("Stack peek value is: " + dynamicStack.peek());
+        System.out.println("com.anuj.Stack peek value is: " + dynamicStack.peek());
         dynamicStack.show();
         System.out.println("Value pop from stack is: " + dynamicStack.pop());
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println("Stack peek value is: " + dynamicStack.peek());
+        System.out.println("com.anuj.Stack peek value is: " + dynamicStack.peek());
         dynamicStack.show();
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println(dynamicStack.isEmpty() == true ? "Stack is empty." : "Stack is not empty.");
+        System.out.println(dynamicStack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
     }
 }
 

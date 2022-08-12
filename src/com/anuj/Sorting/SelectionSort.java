@@ -2,6 +2,20 @@ package com.anuj.Sorting;
 
 import java.util.Arrays;
 
+/*
+Time Complexity
+    Best O(n^2) // When found at mid
+    Worst O(n^2) // When found at last iteration
+Auxiliary Space
+    O(1) // Because not using extra space
+Method
+    Selection
+Sorting in place
+    No
+Stable
+    No
+*/
+
 public class SelectionSort {
 
     public static void main(String[] args){

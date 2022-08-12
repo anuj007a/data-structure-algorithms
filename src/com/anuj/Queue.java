@@ -1,3 +1,5 @@
+package com.anuj;
+
 public class Queue {
     int[] queue = new int[5];
     int size;
@@ -10,7 +12,7 @@ public class Queue {
             rear = (rear + 1) % 5;
             size++;
         } else {
-            System.out.println("Queue is full.");
+            System.out.println("com.anuj.Queue is full.");
         }
     }
 
@@ -32,7 +34,7 @@ public class Queue {
             front = (front + 1) % 5;
             size--;
         } else {
-            System.out.println("Queue is empty.");
+            System.out.println("com.anuj.Queue is empty.");
         }
         return data;
     }

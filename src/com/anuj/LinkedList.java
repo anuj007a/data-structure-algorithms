@@ -1,3 +1,5 @@
+package com.anuj;
+
 public class LinkedList {
 
     Node head;

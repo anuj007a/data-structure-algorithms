@@ -2,6 +2,18 @@ package com.anuj.Sorting;
 
 import java.util.Arrays;
 
+/*
+Time Complexity
+    Best O(n) // When found at mid
+    Worst O(n*n) // When found at last iteration
+Auxiliary Space
+    O(1) // Because not using extra space
+Sorting in place
+    Yes
+Stable
+    Yes
+*/
+
 public class BubbleSorting {
 
     public static void main(String[] args) {
