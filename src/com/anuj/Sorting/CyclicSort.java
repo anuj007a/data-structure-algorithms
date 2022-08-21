@@ -12,7 +12,7 @@ If given no from 1 to N. Apply cyclic sort
  */
 public class CyclicSort {
     public static void main( String[] args){
-        int[] arr = { 3, 5, 1, 4, 2, 8, 7, 6, 9};
+        int[] arr = { 3, 5, 4, 1, 2, 8, 7, 6, 9};
         cyclicSort(arr);
         System.out.println(Arrays.toString(arr));
     }
