@@ -12,7 +12,7 @@ public class Queue {
             rear = (rear + 1) % 5;
             size++;
         } else {
-            System.out.println("com.anuj.Queue is full.");
+            System.out.println("Queue is full.");
         }
     }
 
@@ -34,7 +34,7 @@ public class Queue {
             front = (front + 1) % 5;
             size--;
         } else {
-            System.out.println("com.anuj.Queue is empty.");
+            System.out.println("Queue is empty.");
         }
         return data;
     }

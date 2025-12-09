@@ -1,4 +1,4 @@
-package com.anuj.Sorting;
+package com.anuj.sorting;
 
 import java.util.Arrays;
 

@@ -82,11 +82,11 @@ class DynamicStackRunner {
         dynamicStack.push(6);
         dynamicStack.push(5);
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println("com.anuj.Stack peek value is: " + dynamicStack.peek());
+        System.out.println("peek value is: " + dynamicStack.peek());
         dynamicStack.show();
         System.out.println("Value pop from stack is: " + dynamicStack.pop());
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println("com.anuj.Stack peek value is: " + dynamicStack.peek());
+        System.out.println("peek value is: " + dynamicStack.peek());
         dynamicStack.show();
         System.out.println("Size of stack is: " + dynamicStack.size());
         System.out.println(dynamicStack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
