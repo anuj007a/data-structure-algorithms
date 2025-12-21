@@ -1,4 +1,4 @@
-package com.anuj;
+package com.wraith;
 
 public class DynamicStack {
 
@@ -25,7 +25,7 @@ public class DynamicStack {
     public int pop() {
         int data = 0;
         if (isEmpty()) {
-            System.out.println("Can't pop, com.anuj.Stack is empty.");
+            System.out.println("Can't pop, com.wraith.Stack is empty.");
         } else {
             top--;
             data = stack[top];
@@ -73,7 +73,7 @@ public class DynamicStack {
 class DynamicStackRunner {
     public static void main(String[] args) {
         DynamicStack dynamicStack = new DynamicStack();
-        System.out.println(dynamicStack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
+        System.out.println(dynamicStack.isEmpty() == true ? "com.wraith.Stack is empty." : "com.wraith.Stack is not empty.");
         dynamicStack.pop();
         dynamicStack.push(10);
         dynamicStack.push(9);
@@ -89,7 +89,7 @@ class DynamicStackRunner {
         System.out.println("peek value is: " + dynamicStack.peek());
         dynamicStack.show();
         System.out.println("Size of stack is: " + dynamicStack.size());
-        System.out.println(dynamicStack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
+        System.out.println(dynamicStack.isEmpty() == true ? "com.wraith.Stack is empty." : "com.wraith.Stack is not empty.");
     }
 }
 

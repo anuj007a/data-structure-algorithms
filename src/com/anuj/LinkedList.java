@@ -1,4 +1,4 @@
-package com.anuj;
+package com.wraith;
 
 public class LinkedList {
 

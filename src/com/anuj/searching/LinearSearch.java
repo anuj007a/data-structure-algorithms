@@ -1,4 +1,4 @@
-package com.anuj.searching;
+package com.wraith.searching;
 
 /*
 Time Complexity

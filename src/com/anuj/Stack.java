@@ -1,4 +1,4 @@
-package com.anuj;
+package com.wraith;
 
 public class Stack {
 
@@ -7,7 +7,7 @@ public class Stack {
 
     public void push(int data) {
         if (top == 5) {
-            System.out.println("Can't push, com.anuj.Stack is full.");
+            System.out.println("Can't push, com.wraith.Stack is full.");
             return;
         }
         stack[top] = data;
@@ -17,7 +17,7 @@ public class Stack {
     public int pop() {
         int data = 0;
         if (isEmpty()) {
-            System.out.println("Can't pop, com.anuj.Stack is empty.");
+            System.out.println("Can't pop, com.wraith.Stack is empty.");
         } else {
             top--;
             data = stack[top];
@@ -55,7 +55,7 @@ public class Stack {
 class StackRunner {
     public static void main(String[] args) {
         Stack stack = new Stack();
-        System.out.println(stack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
+        System.out.println(stack.isEmpty() == true ? "com.wraith.Stack is empty." : "com.wraith.Stack is not empty.");
         stack.pop();
         stack.push(10);
         stack.push(9);
@@ -64,14 +64,14 @@ class StackRunner {
         stack.push(6);
         stack.push(5);
         System.out.println("Size of stack is: " + stack.size());
-        System.out.println("com.anuj.Stack peek value is: " + stack.peek());
+        System.out.println("com.wraith.Stack peek value is: " + stack.peek());
         stack.show();
         System.out.println("Value pop from stack is: " + stack.pop());
         System.out.println("Size of stack is: " + stack.size());
-        System.out.println("com.anuj.Stack peek value is: " + stack.peek());
+        System.out.println("com.wraith.Stack peek value is: " + stack.peek());
         stack.show();
         System.out.println("Size of stack is: " + stack.size());
-        System.out.println(stack.isEmpty() == true ? "com.anuj.Stack is empty." : "com.anuj.Stack is not empty.");
+        System.out.println(stack.isEmpty() == true ? "com.wraith.Stack is empty." : "com.wraith.Stack is not empty.");
     }
 }
 
